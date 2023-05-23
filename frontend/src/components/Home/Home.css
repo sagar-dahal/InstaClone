@@ -1,0 +1,17 @@
+.home-content{
+    width: 80%;
+    display: flex;
+}
+
+.home-col-1{
+    flex: 1;
+}
+
+.home-col-2{
+    flex: 1;
+}
+
+.home-container .logo{
+    font-family: Dancing Script;
+    font-size: 50px;
+}

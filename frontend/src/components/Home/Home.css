@@ -19,12 +19,12 @@
     font-size: 50px;
 }
 .get-apps {
-    width: 250px;
+    width: 300px;
     margin: auto;
     display: flex;
     justify-content: center;
   }
   
-  .app-btn {
-    width: 100px;
-  }
+.app-btn {
+    width: 130px;
+}

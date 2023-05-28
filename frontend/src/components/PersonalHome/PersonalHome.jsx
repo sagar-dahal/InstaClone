@@ -6,6 +6,9 @@ import {RiMessage2Line} from 'react-icons/ri';
 import {CgProfile} from 'react-icons/cg';
 import {RxHamburgerMenu} from 'react-icons/rx';
 
+import Story from './Story';
+import Post from './Post';
+
 import './personalHome.css';
 
 const PersonalHome = () => {
@@ -50,9 +53,18 @@ const PersonalHome = () => {
                 <div className=''>More</div>
             </div>
         </div>
-        <div className='container-r flex'>
-            <div>
-                sd
+        <div className='container-r flex pt-10 pl-10'>
+            <div className='media w-3/4'>
+                <div className='stories flex'>
+                    <Story />
+                    <Story />
+                    <Story />
+                    <Story />
+                    <Story />
+                </div>
+                <div className='posts'>
+                    
+                </div>
             </div>
         </div>
     </main>

@@ -2,7 +2,7 @@ import React, {Fragment} from 'react';
 import {Link} from 'react-router-dom';
 
 import Links from '../../links/links';
-import SlideShow from './SlideShow.jsx';
+import SlideShow from './SlideShow';
 
 import './Home.css';
 

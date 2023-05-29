@@ -7,3 +7,28 @@
 .content-l-1, .content-l-2{
     padding: 8px 12px 20px 12px;
 }
+.r-2{
+    width: 350px;
+}
+.dp{
+    position: relative;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+.dp img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #fff;
+}
+.sp-dp{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+  

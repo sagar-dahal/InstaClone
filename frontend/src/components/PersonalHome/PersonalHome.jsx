@@ -74,8 +74,10 @@ const PersonalHome = () => {
                     <Story />
                     <Story />
                 </div>
-                <div className='posts'>
-                    {/* <Post /> */}
+                <div className='posts-container w-full mt-10 bg-500'>
+                    <div className='posts m-auto'>
+                        <Post />
+                    </div>
                 </div>
             </div>
             <div className='r-2 pt-1 ml-14'>
@@ -105,8 +107,8 @@ const PersonalHome = () => {
                     <div className='suggested-profiles'>
                         {suggestions.map((item, index) => (
                             <div className='flex items-center mt-4'>
-                                <div className='sp-dp-container'>
-                                    <img src={item.url} alt={item.uName} className='sp-dp' key={index} />
+                                <div className='sp-dp'>
+                                    <img src={item.url} alt={item.uName} key={index} />
                                 </div>
                                 <div className='ml-3 leading-4'>
                                     <Link className='font-semibold'>{item.uName}</Link><br />

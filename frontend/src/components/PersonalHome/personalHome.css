@@ -7,6 +7,9 @@
 .content-l-1, .content-l-2{
     padding: 8px 12px 20px 12px;
 }
+.posts{
+    width: 500px;
+}
 .r-2{
     width: 350px;
 }
@@ -26,7 +29,7 @@
     border-radius: 50%;
     background: #fff;
 }
-.sp-dp{
+.sp-dp img{
     width: 44px;
     height: 44px;
     border-radius: 50%;

@@ -4,6 +4,9 @@
     position: sticky;
     top: 0;
 }
+.logo-icon{
+    display:none;
+}
 .content-l-1, .content-l-2{
     padding: 8px 12px 20px 12px;
 }
@@ -34,4 +37,24 @@
     height: 44px;
     border-radius: 50%;
 }
-  
+
+@media screen and (max-width: 1400px){
+    .container-l{
+        width: auto;
+    }
+    .option{
+        display: none;
+    }
+    .logo-text{
+        display: none;
+    }
+    .logo-icon{
+        display: block;
+    }
+    .follow-suggestions{
+        width: 300px;
+    }
+    .container-r{
+        margin-right: auto;
+    }
+} 

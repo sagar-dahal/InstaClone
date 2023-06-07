@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
-import {AiOutlineHome, AiOutlineSearch, AiOutlineHeart} from 'react-icons/ai';
+import {AiOutlineHome, AiOutlineSearch, AiOutlineHeart, AiOutlineInstagram} from 'react-icons/ai';
 import {BsCameraReels} from 'react-icons/bs';
 import {RiMessage2Line} from 'react-icons/ri';
 import {CgProfile} from 'react-icons/cg';
@@ -28,38 +28,53 @@ const PersonalHome = () => {
         <div className="container-l border-r-2 float-left flex flex-col">
             <div className='content-l-1'>
                 <div className='py-4 mb-2'>
-                    <p className='logo text-3xl font-bold'>Instagram</p>
+                    <p className='logo logo-text text-3xl font-bold'>Instagram</p>
+                    <div className='logo-icon'>
+                        <AiOutlineInstagram size={iconSize} />
+                    </div>
                 </div>
                 <div className='menu'>
-                    <div className='menu-home flex items-center py-4'>
-                        <div className='mr-5'> <AiOutlineHome size={iconSize} /> </div>
-                        <div className=''>Home</div>
-                    </div>
-                    <div className='menu-home flex items-center py-4 mt-2'>
-                        <div className='mr-5'> <AiOutlineSearch size={iconSize} /> </div>
-                        <div className=''>Search</div>
-                    </div>
-                    <div className='menu-home flex items-center py-4 mt-2'>
-                        <div className='mr-5'> <BsCameraReels size={iconSize} /> </div>
-                        <div className=''>Reels</div>
-                    </div>
-                    <div className='menu-home flex items-center py-4 mt-2'>
-                        <div className='mr-5'> <RiMessage2Line size={iconSize} /> </div>
-                        <div className=''>Messages</div>
-                    </div>
-                    <div className='menu-home flex items-center py-4 mt-2'>
-                        <div className='mr-5'> <AiOutlineHeart size={iconSize} /> </div>
-                        <div className=''>Notifications</div>
-                    </div>
-                    <div className='menu-home flex items-center py-4 mt-2'>
-                        <div className='mr-5'> <CgProfile size={iconSize} /> </div>
-                        <div className=''>Profile</div>
-                    </div>
+                    <Link>
+                        <div className='menu-home flex items-center py-4'>
+                            <div className='mr-5'> <AiOutlineHome size={iconSize} /> </div>
+                            <div className='option'><span className='text-base'>Home</span></div>
+                        </div>
+                    </Link>
+                    <Link>
+                        <div className='menu-home flex items-center py-4 mt-2'>
+                            <div className='mr-5'> <AiOutlineSearch size={iconSize} /> </div>
+                            <div className='option'><span className='text-base'>Search</span></div>
+                        </div>
+                    </Link>
+                    <Link>
+                        <div className='menu-home flex items-center py-4 mt-2'>
+                            <div className='mr-5'> <BsCameraReels size={iconSize} /> </div>
+                            <div className='option'><span className='text-base'>Reels</span></div>
+                        </div>
+                    </Link>
+                    <Link>
+                        <div className='menu-home flex items-center py-4 mt-2'>
+                            <div className='mr-5'> <RiMessage2Line size={iconSize} /> </div>
+                            <div className='option'><span className='text-base'>Messages</span></div>
+                        </div>
+                    </Link>
+                    <Link>
+                        <div className='menu-home flex items-center py-4 mt-2'>
+                            <div className='mr-5'> <AiOutlineHeart size={iconSize} /> </div>
+                            <div className='option'><span className='text-base'>Notifications</span></div>
+                        </div>
+                    </Link>
+                    <Link>
+                        <div className='menu-home flex items-center py-4 mt-2'>
+                            <div className='mr-5'> <CgProfile size={iconSize} /> </div>
+                            <div className='option'><span className='text-base'>Profile</span></div>
+                        </div>
+                    </Link>
                 </div>
             </div>
             <div className='content-l-2 mt-auto flex items-center mb-5'>
                 <div className='mr-5'> <RxHamburgerMenu size={iconSize} /> </div>
-                <div className=''>More</div>
+                <div className='option'><span className='text-base'>More</span></div>
             </div>
         </div>
         <div className='container-r w-9/12 mx-auto flex pt-10'>

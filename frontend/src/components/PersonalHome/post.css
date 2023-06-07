@@ -3,3 +3,38 @@
     height: 44px;
     border-radius: 50%;
 }
+
+p, span{
+    font-size: 14px;
+}
+
+.post-images{
+    position: relative;
+}
+
+.prev, .next{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    opacity: 0.8;  
+}
+.prev{
+    left: 10px;
+}
+
+.next{
+    right: 10px;
+}
+.circles{
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.circle{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    opacity: 0.8;
+}

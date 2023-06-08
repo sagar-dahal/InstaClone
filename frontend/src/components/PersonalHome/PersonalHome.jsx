@@ -35,50 +35,50 @@ const PersonalHome = () => {
                 </div>
                 <div className='menu'>
                     <Link>
-                        <div className='menu-home flex items-center py-4'>
-                            <div className='mr-5'> <AiOutlineHome size={iconSize} /> </div>
-                            <div className='option'><span className='text-base'>Home</span></div>
+                        <div className='flex items-center py-4'>
+                            <div className='menu-icon'> <AiOutlineHome size={iconSize} /> </div>
+                            <div className='menu-text ml-5'><span className='text-base'>Home</span></div>
                         </div>
                     </Link>
                     <Link>
-                        <div className='menu-home flex items-center py-4 mt-2'>
-                            <div className='mr-5'> <AiOutlineSearch size={iconSize} /> </div>
-                            <div className='option'><span className='text-base'>Search</span></div>
+                        <div className='flex items-center py-4 mt-2'>
+                            <div className='menu-icon'> <AiOutlineSearch size={iconSize} /> </div>
+                            <div className='menu-text ml-5'><span className='text-base'>Search</span></div>
                         </div>
                     </Link>
                     <Link>
-                        <div className='menu-home flex items-center py-4 mt-2'>
-                            <div className='mr-5'> <BsCameraReels size={iconSize} /> </div>
-                            <div className='option'><span className='text-base'>Reels</span></div>
+                        <div className='flex items-center py-4 mt-2'>
+                            <div className='menu-icon'> <BsCameraReels size={iconSize} /> </div>
+                            <div className='menu-text ml-5'><span className='text-base'>Reels</span></div>
                         </div>
                     </Link>
                     <Link>
-                        <div className='menu-home flex items-center py-4 mt-2'>
-                            <div className='mr-5'> <RiMessage2Line size={iconSize} /> </div>
-                            <div className='option'><span className='text-base'>Messages</span></div>
+                        <div className='flex items-center py-4 mt-2'>
+                            <div className='menu-icon'> <RiMessage2Line size={iconSize} /> </div>
+                            <div className='menu-text ml-5'><span className='text-base'>Messages</span></div>
                         </div>
                     </Link>
                     <Link>
-                        <div className='menu-home flex items-center py-4 mt-2'>
-                            <div className='mr-5'> <AiOutlineHeart size={iconSize} /> </div>
-                            <div className='option'><span className='text-base'>Notifications</span></div>
+                        <div className='flex items-center py-4 mt-2'>
+                            <div className='menu-icon'> <AiOutlineHeart size={iconSize} /> </div>
+                            <div className='menu-text ml-5'><span className='text-base'>Notifications</span></div>
                         </div>
                     </Link>
                     <Link>
-                        <div className='menu-home flex items-center py-4 mt-2'>
-                            <div className='mr-5'> <CgProfile size={iconSize} /> </div>
-                            <div className='option'><span className='text-base'>Profile</span></div>
+                        <div className='flex items-center py-4 mt-2'>
+                            <div className='menu-icon'> <CgProfile size={iconSize} /> </div>
+                            <div className='menu-text ml-5'><span className='text-base'>Profile</span></div>
                         </div>
                     </Link>
                 </div>
             </div>
             <div className='content-l-2 mt-auto flex items-center mb-5'>
-                <div className='mr-5'> <RxHamburgerMenu size={iconSize} /> </div>
-                <div className='option'><span className='text-base'>More</span></div>
+                <div className='menu-icon'> <RxHamburgerMenu size={iconSize} /> </div>
+                <div className='menu-text ml-5'><span className='text-base'>More</span></div>
             </div>
         </div>
-        <div className='container-r w-9/12 mx-auto flex pt-10'>
-            <div className='r-1'>
+        <div className='container-r mx-auto flex pt-10'>
+            <div className='r-1 mx-auto'>
                 <div className='stories flex'>
                     <Story />
                     <Story />
@@ -95,12 +95,12 @@ const PersonalHome = () => {
                     </div>
                 </div>
             </div>
-            <div className='r-2 pt-1 ml-14'>
+            <div className='r-2 pt-1 mx-auto'>
                 <div className='account-switch flex items-center'>
                     <div className='dp bg-slate-400'>
                         <img src={dp} alt="dp" />
                     </div>
-                    <div className='ml-5'>
+                    <div className='ml-3'>
                         <Link className='font-semibold'>john_smith</Link><br />
                         <span>John Smith</span>
                     </div>

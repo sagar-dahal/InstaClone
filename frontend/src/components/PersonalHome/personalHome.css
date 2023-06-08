@@ -42,7 +42,7 @@
     .container-l{
         width: auto;
     }
-    .option{
+    .menu-text{
         display: none;
     }
     .logo-text{
@@ -51,10 +51,13 @@
     .logo-icon{
         display: block;
     }
-    .follow-suggestions{
-        width: 300px;
-    }
-    .container-r{
-        margin-right: auto;
+    .logo-icon, .menu-icon{
+        margin:  0 auto;
+        padding: 0 10px;
     }
 } 
+@media screen and (max-width: 1210px){
+    .r-2{
+        display: none;
+    }
+}

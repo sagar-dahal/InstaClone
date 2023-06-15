@@ -25,7 +25,7 @@ const Post = () => {
     const [index, setIndex] = useState(0);
     const [liked, setLiked] = useState(false);
   return (
-    <article className='border-b-2 mb-5'>
+    <article className='border-b-2 pb-4 mb-5'>
         <header>
             <div className='flex items-center mt-4'>
                 <div className='sp-dp'>

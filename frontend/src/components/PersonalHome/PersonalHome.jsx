@@ -92,6 +92,7 @@ const PersonalHome = () => {
                 <div className='posts-container w-full mt-10 bg-500'>
                     <div className='posts m-auto'>
                         <Post />
+                        <Post />
                     </div>
                 </div>
             </div>
